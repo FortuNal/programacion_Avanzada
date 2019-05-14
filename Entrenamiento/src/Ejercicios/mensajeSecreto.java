@@ -50,9 +50,12 @@ public class mensajeSecreto {
 			    	salida.print(s);      
 			    	salida.println(" "+'D'); 
 		    }
-		    s="NO";
-		    salida.print(s); 
-			salida.close(); //esto escribe : dni: 50
+		    else
+		    	{
+		    		s="NO";
+				salida.print(s); 
+				salida.close(); 
+		    	}
 			
 	}
 	
