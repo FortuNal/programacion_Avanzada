@@ -28,7 +28,7 @@ public class modificarArchivo {
 		FileWriter writer = new FileWriter(archivoDestino);
 		sc.useLocale(Locale.ENGLISH);
 		while(sc.hasNextLine()) {
-			texto=sc.nextLine();
+			texto=texto=sc.nextLine();
             resultado=texto.contains(palabraAReemplazar);
             if(resultado)
             	texto.replaceAll(palabraAReemplazar, nuevaPalabra);
