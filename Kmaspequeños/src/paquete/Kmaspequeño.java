@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class Kmaspequeño {
+public class KmaspequeÃ±o {
 
 	public static void main(String[] args) throws IOException {
 		
@@ -17,9 +17,9 @@ public class Kmaspequeño {
 		TreeMap<Integer,Integer> numeros=new TreeMap<Integer,Integer>();
 
 		/// ARCHIVOS DE ENTRADA Y SALIDA
-		String path = "C:\\Users\\PC\\workspace\\Kmaspequeños\\src\\paquete\\numeros.in";
+		String path = "C:\\Users\\PC\\workspace\\KmaspequeÃ±os\\src\\paquete\\numeros.in";
 		PrintWriter solucion = new PrintWriter(
-				new FileWriter("C:\\Users\\PC\\workspace\\Kmaspequeños\\src\\paquete\\numeros.out"));
+				new FileWriter("C:\\Users\\PC\\workspace\\KmaspequeÃ±os\\src\\paquete\\numeros.out"));
 		Scanner sc = new Scanner(new File(path));
 				
 		/// LECTURA DE ENTRADA
@@ -32,7 +32,7 @@ public class Kmaspequeño {
 		}
 		sc.close();
 		
-		/// ESCRIBO LOS MAS REPETIDOS EN EL ARCHIVO DE SALIDA
+		/// ESCRIBO LOS MENORES EN EL ARCHIVO DE SALIDA
 		solucion.println(valoresBuscados);
 		for (int j = 0; j < valoresBuscados; j++) {
 			java.util.Map.Entry<Integer, Integer> ordenado=numeros.pollFirstEntry();
